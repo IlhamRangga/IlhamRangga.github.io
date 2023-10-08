@@ -1,0 +1,212 @@
+body,html {
+    font-family: Heebo;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.a-navbar {
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    color: #FF6464;
+}
+
+#section-1 {
+    margin: 100px 150px 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.btn {
+    background-color: #FF6464;
+    color: white;
+    padding: 10px 20px;
+}
+
+#img-1 {
+    width: 243px;
+    height: 243px;
+    margin-bottom: 20px;
+}
+
+#section-2 {
+    margin-bottom: 10px;
+    display: grid;
+    background-color:#EDF7FA;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#section-2 > h4 {
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+#section-2 > a {
+    margin-top: 25px;
+    text-align: right;
+    margin-inline-end: 150px;
+}
+
+#section-2 > div {
+    background-color: white;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+#work-1 {
+    margin-left: 150px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#work-2 {
+    margin-right: 150px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#section-3 {
+    margin: 10px 150px 100px;
+    display: grid;
+}
+
+.portofolio {
+    display: flex;
+    margin-bottom: 40px;
+    box-shadow: 0px 1px gray;
+    gap: 20px;
+}
+
+.information {
+    display: flex;
+    gap: 20px;
+}
+
+.article {
+    margin-top: 5px;
+}
+
+#footer {
+    margin: 50px 150px 10px;
+}
+
+#footer-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 376px) {
+
+    body,html {
+        font-size: 16px;
+    }
+
+    #navbar {
+        margin-right: 20px;
+    }
+
+    #section-1 {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #work-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+    }
+    
+    #work-2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    #section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-3 {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portofolio {
+        display: flex;
+        margin-bottom: 40px;
+        box-shadow: 0px 1px gray;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px, 10px, 10px, 40px;
+    }
+
+    #portofolio-img {
+        width: 339px;
+        height: 230px;
+    }
+
+    #footer {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
